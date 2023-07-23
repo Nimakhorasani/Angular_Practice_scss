@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+
+.button-default {
+  background-color: #1976d2;
+  border-radius: 10px;
+
+
+  &:hover {
+    box-shadow: 1px 4px 20px rgba(10, 10, 10, 0.4);
+
+  }
+
+}
